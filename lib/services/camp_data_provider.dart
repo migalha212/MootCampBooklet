@@ -18,11 +18,22 @@ class CampDataProvider extends ChangeNotifier {
   bool get isInitialized => _isInitialized;
 
   Future<void> initialize(String? storedPathId) async {
-    if (storedPathId != null) {
-      await loadPath(storedPathId);
+    if (_isInitialized) return; // Prevent re-initialization
+
+    String? _errorMessage = null; // Clear previous errors
+
+    try {
+      if (storedPathId != null) {
+        await loadPath(storedPathId);
+      }
+    } catch (e) {
+      _errorMessage = 'Initialization failed: $e';
+      print('CampDataProvider Initialization Error: $_errorMessage');
+      _pathId = null;
+    } finally {
+      _isInitialized = true;
+      notifyListeners();
     }
-    _isInitialized = true;
-    notifyListeners();
   }
 
   Future<void> loadPath(String pathId) async {

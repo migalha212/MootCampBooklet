@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../widgets/custom_nav_bar.dart';
-import 'home_screen.dart';
+import 'menu_screen.dart';
 import 'schedule_screen.dart';
-import 'story_screen.dart';
-import 'contacts_screen.dart';
-import 'rules_screen.dart';
+import 'home_screen.dart';
+import 'info_screen.dart';
+import 'settings_screen.dart';
 
 class MainApp extends StatefulWidget {
   const MainApp({super.key});
@@ -14,14 +14,14 @@ class MainApp extends StatefulWidget {
 }
 
 class _MainAppState extends State<MainApp> {
-  int _index = 2; // Start at Story
+  int _index = 2;
 
   final List<Widget> _pages = const [
-    HomeScreen(),
-    ScheduleScreen(),
-    StoryScreen(),
-    ContactsScreen(),
-    RulesScreen(),
+    MenuScreen(), // Ementa
+    ScheduleScreen(), // Schedule
+    HomeScreen(), // Story
+    InfoScreen(), // Contacts + Rules
+    SettingsScreen(), // Path reset, app info, etc.
   ];
 
   @override
