@@ -1,0 +1,89 @@
+{
+  "theme": {
+    "primaryColor": "#BA14DC",
+    "secondaryColor": "#5A0073"
+  },
+  "story": "No one knows where the train begins. It arrives in silence, slipping into forgotten stations.The route winds through vast, emerald mountains that rise and fall like waves, covered in dense, whispering trees. Below, golden rivers snake through the valleys, glowing as if they’ve captured the light of the sun and never let it go. Sheep dot the hillsides like cotton balls, and birds race the train, dipping and looping in the breeze. One evening, the train slows and stops at a small town nestled between the hills and a curve of the glowing river. The travelers disembark, unsure why. The town feels inviting, like it’s been waiting just for them. Near the station, someone spots a hand-painted sign: “The treasure is near. But first—find the key.” And just like that, the hunt begins. They scatter in all directions, wandering the narrow streets, in the search for hints. Hints lead to more hints. They point away from the center of town, out toward the riverbanks. The travelers borrow canoes and set off gently down the golden waters, paddling past fields of reeds and old stone bridges. The river carries them through quiet countryside where olive trees stretch their limbs toward the sun, and whitewashed chapels sit tucked among the hills. Eventually, they reach the vast, sun-warmed plains that seem to hum with a quiet sort of magic. There, under the open sky, the air soft and golden, they finally find the key. Now it’s time to find the treasure. But the treasure is not gold, nor jewels. Maybe the treasure was the hunt itself, working together as a team and the union of people! Eventually, the train will return—whenever it feels the time is right. And when it does, the travelers will carry more than just luggage.",
+  "schedule": [
+    {
+      "date": "2025-07-25",
+      "periods": {
+        "morning": { "label": "Ice Break", "id": "ice_break" },
+        "afternoon": { "label": "Trip to Carrazeda", "id": "trip_carrazeda" },
+        "night": { "label": "Getting to Know Each Other", "id": "get_to_know" }
+      }
+    },
+    {
+      "date": "2025-07-26",
+      "periods": {
+        "morning": { "label": "Program, Craft a Zíngaro", "id": "program_craft_a_zingaro" },
+        "afternoon": { "label": "Local Culture/History, Setting Up Camp", "id": "local_culture_history_setting_up_camp" },
+        "night": { "label": "Free Time", "id": "free_time" }
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "periods": {
+        "morning": { "label": "Pool actvity", "id": "pool_activity" },
+        "afternoon": { "label": "Make the Camp Better", "id": "make_the_camp_better" },
+        "night": { "label": "Peddy Papper", "id": "peddy_papper" }
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "periods": {
+        "morning": { "label": "Train Trip", "id": "train_trip" },
+        "afternoon": { "label": "Valley Trail", "id": "valley_trail" },
+        "night": { "label": "Prepare Fire Camp", "id": "prepare_fire_camp" }
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "periods": {
+        "morning": { "label": "Bushcraft", "id": "bushcraft" },
+        "afternoon": { "label": "Water Games", "id": "water_games" },
+        "night": { "label": "Portuguese Party", "id": "portuguese_party" }
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "periods": {
+        "morning": { "label": "Trip Main Camp", "id": "trip_main_camp" }
+      }
+    }
+  ],
+  "rules": [
+    "Respect all participants and staff.",
+    "Keep the camp clean and organized.",
+    "Participate actively in all activities.",
+    "Stay within designated areas.",
+    "Report any issues or concerns to your leader.",
+    "Have fun and enjoy the adventure!"
+  ],
+  "contacts": [
+    {
+      "name": "Célio Santiago",
+      "phone": "+351 936 409 922"
+    },
+    {
+      "name": "Mário Pais",
+      "phone": "+351 965 743 692"
+    },
+    {
+      "name": "Catarina Rocha",
+      "phone": "+351 919 948 543"
+    },
+    {
+      "name": "Sara Batista",
+      "phone": "+351 911 922 361"
+    },
+    {
+      "name": "Inês Batista",
+      "phone": "+351 969 265 788"
+    },
+    {
+      "name": "Ana Caseiro",
+      "phone": "+351 938 231 060"
+    }
+  ]
+}

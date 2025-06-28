@@ -1,0 +1,90 @@
+{
+    "theme": {
+      "primaryColor": "#0030DA",
+      "secondaryColor": "#001A7A"
+    },
+    "story": "This path explores the strength of cooperation through a journey inspired by the idea of rebuilding community. Starting with bonding activities, the group travels through challenges that require teamwork and mutual respect, ending with a shared sense of belonging and purpose.",
+  "schedule": [
+    {
+      "date": "2025-07-25",
+      "periods": {
+        "morning": { "label": "Ice Break", "id": "ice_break" },
+        "afternoon": { "label": "Trip to Carrazeda", "id": "trip_carrazeda" },
+        "night": { "label": "Getting to Know Each Other", "id": "get_to_know" }
+      }
+    },
+    {
+      "date": "2025-07-26",
+      "periods": {
+        "morning": { "label": "Program, Craft a Zíngaro", "id": "program_craft_a_zingaro" },
+        "afternoon": { "label": "Local Culture/History, Setting Up Camp", "id": "local_culture_history_setting_up_camp" },
+        "night": { "label": "Free Time", "id": "free_time" }
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "periods": {
+        "morning": { "label": "Train Trip", "id": "train_trip" },
+        "afternoon": { "label": "Valley Trail", "id": "valley_trail" },
+        "night": { "label": "Peddy Papper", "id": "peddy_papper" }
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "periods": {
+        "morning": { "label": "Water Games", "id": "water_games" },
+        "afternoon": { "label": "Bushcraft", "id": "bushcraft" },
+        "night": { "label": "Prepare Fire Camp", "id": "prepare_fire_camp" }
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "periods": {
+        "morning": { "label": "Pool actvity", "id": "pool_activity" },
+        "afternoon": { "label": "Make the Camp Better", "id": "make_the_camp_better" },
+        "night": { "label": "Portuguese Party", "id": "portuguese_party" }
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "periods": {
+        "morning": { "label": "Trip Main Camp", "id": "trip_main_camp" }
+      }
+    }
+  ],
+  "rules": [
+    "Respect everyone — we come from different cultures and backgrounds.",
+    "Take care of the shared spaces and equipment.",
+    "Follow the schedule and be punctual.",
+    "Stay hydrated and use sunscreen.",
+    "Report to your leader if you feel unwell or unsafe.",
+    "Have fun and participate actively!"
+  ],
+  "contacts": [
+    {
+      "name": "Célio Santiago",
+      "phone": "+351 936 409 922"
+    },
+    {
+      "name": "Mário Pais",
+      "phone": "+351 965 743 692"
+    },
+    {
+      "name": "Catarina Rocha",
+      "phone": "+351 919 948 543"
+    },
+    {
+      "name": "Sara Batista",
+      "phone": "+351 911 922 361"
+    },
+    {
+      "name": "Inês Batista",
+      "phone": "+351 969 265 788"
+    },
+    {
+      "name": "Ana Caseiro",
+      "phone": "+351 938 231 060"
+    }
+  ]
+}
+  

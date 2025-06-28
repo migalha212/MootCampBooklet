@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moot 2025 Camp Booklet - Download</title>
+    <style>
+        :root {
+            --primary-background: #FFFFFF; /* White background */
+            --soft-red: #CD5C5C; /* IndianRed - a soft red for text/accents */
+            --darker-red: #A52A2A; /* Brown/Dark Red for warnings or strong accents */
+            --button-hover-red: #B22222; /* Firebrick for button hover */
+            --text-white: #FFFFFF; /* White text for buttons on red background */
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: var(--primary-background); /* White background */
+            color: var(--soft-red); /* Default text color is soft red */
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: var(--primary-background); /* Container also white */
+            padding: 30px;
+            border-radius: 15px; /* More rounded corners */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1); /* Soft shadow */
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: var(--soft-red); /* Soft red heading */
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        /* NEW: Container for icon and button, using flexbox */
+        .download-area {
+            display: flex; /* Enable flexbox */
+            align-items: center; /* Vertically align items in the middle */
+            justify-content: center; /* Horizontally center items */
+            gap: 15px; /* Space between the icon and the button */
+            margin-top: 30px;
+            margin-bottom: 30px; /* Add some space below the download area */
+        }
+
+        .app-icon {
+            height: 60px; /* Adjust icon size as needed */
+            width: auto;
+            border-radius: 12px; /* Apply rounded corners to the icon itself */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Small shadow for depth */
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: var(--soft-red); /* Soft red button background */
+            color: var(--text-white); /* White text on button */
+            text-decoration: none;
+            border-radius: 10px; /* Rounded button */
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .download-button:hover {
+            background-color: var(--button-hover-red); /* Slightly darker red on hover */
+        }
+        .instructions {
+            margin-top: 40px;
+            border-top: 1px solid rgba(205, 92, 92, 0.3); /* Soft red divider */
+            padding-top: 30px;
+            text-align: left;
+            font-size: 0.95em;
+        }
+        .instructions h2 {
+            color: var(--soft-red);
+            font-size: 1.4em;
+            margin-bottom: 15px;
+        }
+        .instructions ol {
+            list-style-position: inside;
+            padding-left: 0;
+        }
+        .instructions li {
+            margin-bottom: 10px;
+        }
+        .warning {
+            color: var(--darker-red); /* Darker red warning text for contrast on white */
+            font-weight: bold;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            .download-area {
+                flex-direction: column; /* Stack icon and button on small screens */
+                gap: 10px;
+            }
+            .download-button {
+                padding: 12px 25px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download Moot Camp Booklet</h1>
+        <p>The Camp Booklet for the paths in Carrazeda de Anciães! (V1.0.0)</p>
+
+        <div class="download-area">
+            <img src="moot_logo.png" alt="Moot 2025 App Icon" class="app-icon">
+            <a href="campbooklet.apk" download class="download-button">Download App (Android APK)</a>
+        </div>
+
+        <div class="instructions">
+            <h2>Installation Instructions for Android:</h2>
+            <p>Since this app is downloaded directly and not from the Google Play Store, you'll need to allow installations from "Unknown Sources" on your device.</p>
+            <ol>
+                <li>Tap the "Download App" button above.</li>
+                <li>Your browser might display a warning about the file type. Tap <span class="warning">"OK"</span> or <span class="warning">"Download Anyway"</span> to proceed.</li>
+                <li>Once the download is complete, open the APK file from your device's notifications or its "Downloads" folder.</li>
+                <li>If prompted, go to your phone's Settings and grant permission to your browser (e.g., Chrome) to install apps from "Unknown Sources".</li>
+                <li>Return to the downloaded APK file and tap "Install".</li>
+                <li>The app should now be installed!</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
