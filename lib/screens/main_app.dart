@@ -1,3 +1,4 @@
+import 'package:campbooklet/widgets/page_header.dart';
 import 'package:flutter/material.dart';
 import '../widgets/custom_nav_bar.dart';
 import 'menu_screen.dart';
@@ -27,6 +28,7 @@ class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: PageHeader(),
       body: _pages[_index],
       bottomNavigationBar: CustomNavBar(
         currentIndex: _index,

@@ -1,0 +1,82 @@
+[
+    {
+      "id": "ice_break",
+      "label": "Ice Break",
+      "short_description": "Various games for the participants to get to know each other."
+    },
+    {
+      "id": "get_to_know",
+      "label": "Getting to Know Each Other",
+      "short_description": "After setting up camp games will be played at the viewpoints for the path to get to know each other."
+    },
+    {
+      "id": "program_craft_a_zingaro",
+      "label": "Craft a Zíngaro",
+      "short_description": "Each participant will craft a little neckerchief slide in the shape of a Zíngaro. This is a traditional big headed puppet from Carrazeda de Ansiães."
+    },
+    {
+      "id": "local_culture_history_setting_up_camp",
+      "label": "Local Reality",
+      "short_description": "A local and knowledgeable person will serve as a guide, showing the participants around and exposing some of the history of the Viewpoint where they are staying overnight!"
+    },
+    {
+      "id": "train_trip",
+      "label": "Train Trip",
+      "short_description": "Experience the local train system with a small trip around the area."
+    },
+    {
+      "id": "pool_activity",
+      "label": "Pool Activity",
+      "short_description": "Trip to the Municipal pools of Carrazeda to enjoy a few refreshing and fun hours of pool time!"
+    },
+    {
+      "id": "peddy_papper",
+      "label": "Peddy Paper",
+      "short_description": "During this activity the participants will roam around the town in a game of photo orientation in which they will get to play various traditional Portuguese games."
+    },
+    {
+      "id": "water_games",
+      "label": "Water Games",
+      "short_description": "This activity will be based around water. The participating Path will be divided into 2 halves, with one going canoeing and the other staying on land to play games with water."
+    },
+    {
+      "id": "valley_trail",
+      "label": "Valley Trail",
+      "short_description": "The participating Path will be going through a trail, reconect with nature and enjoy the views!"
+    },
+    {
+      "id": "prepare_fire_camp",
+      "label": "Prepare Fire camp",
+      "short_description": "During the night there will be a makeshift campfire with the goal of preparing one big moment to be shown at the main camp later on in the activity."
+    },
+    {
+      "id": "bushcraft",
+      "label": "Bushcraft",
+      "short_description": "Back to scout basics! This activity will have the participants use various techniques that include using the resources from the nature around them and basic camping techniques."
+    },
+    {
+      "id": "make_the_camp_better",
+      "label": "Make the Camp Better",
+      "short_description": "The participating Path will engage in 2 activities to help make the Scout Centre of Carrazeda better, those being painting one of its outer walls, or building a small shed/hut."
+    },
+    {
+      "id": "portuguese_party",
+      "label": "Portuguese Party",
+      "short_description": "A night of Portuguese culture, with traditional music, food and games."
+    },
+    {
+      "id": "free_time",
+      "label": "Free time",
+      "short_description": "Free time to be used for leisure and socialising."
+    },
+    {
+      "id": "trip_main_camp",
+      "label": "Trip to Main Camp",
+      "short_description": "Trip back to the main camp"
+    },
+    {
+      "id": "trip_carrazeda",
+      "label": "Trip to Carrazeda",
+      "short_description": "Trip to the town of Carrazeda de Ansiães, where we will be staying for the duration the Path."
+    }
+  ]

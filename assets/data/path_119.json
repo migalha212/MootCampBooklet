@@ -3,8 +3,87 @@
       "primaryColor": "#049C2F",
       "secondaryColor": "#024F18"
     },
-    "story": "This is the story for Path 116...",
-    "schedule": [],
-    "rules": [],
-    "contacts": []
+    "story": "As you know, unfortunately the world is not becoming a better place. You have been chosen to form a team to prevent this from happening. To do this, you will follow our great Guardians the Zingaros, legendary heroes of Carrazeda who inspire confidence and are a great example to follow who keep the balance between the Forces. This activity will prepare you to overcome the challenges of your great journey. Legend has it that your Zingaro heroes have hidden the treasure that is the key to completing your journey here and proving that you are worthy of the mission that awaits you. This treasure heaves to the sound of the drums, helping each other because when you need it, you'll only have yourselves.",
+    "schedule": [
+      {
+        "date": "2025-07-25",
+        "periods": {
+          "morning": { "label": "Ice Break", "id": "ice_break" },
+          "afternoon": { "label": "Trip to Carrazeda", "id": "trip_carrazeda" },
+          "night": { "label": "Getting to Know Each Other", "id": "get_to_know" }
+        }
+      },
+      {
+        "date": "2025-07-26",
+        "periods": {
+          "morning": { "label": "Program, Craft a Zíngaro", "id": "program_craft_a_zingaro" },
+          "afternoon": { "label": "Local Culture/History, Setting Up Camp", "id": "local_culture_history_setting_up_camp" },
+          "night": { "label": "Free Time", "id": "free_time" }
+        }
+      },
+      {
+        "date": "2025-07-27",
+        "periods": {
+          "morning": { "label": "Valley Trail", "id": "valley_trail" },
+          "afternoon": {  "label": "Train Trip", "id": "train_trip" },
+          "night": { "label": "Prepare Fire Camp", "id": "prepare_fire_camp" }
+        }
+      },
+      {
+        "date": "2025-07-28",
+        "periods": {
+          "morning": { "label": "Bushcraft", "id": "bushcraft" },
+          "afternoon": { "label": "Water Games", "id": "water_games" },
+          "night": { "label": "Peddy Papper", "id": "peddy_papper" }
+        }
+      },
+      {
+        "date": "2025-07-29",
+        "periods": {
+          "morning": { "label": "Make the Camp Better", "id": "make_the_camp_better" },
+          "afternoon": { "label": "Pool actvity", "id": "pool_activity" },
+          "night": { "label": "Portuguese Party", "id": "portuguese_party" }
+        }
+      },
+      {
+        "date": "2025-07-30",
+        "periods": {
+          "morning": { "label": "Trip Main Camp", "id": "trip_main_camp" }
+        }
+      }
+    ],
+    "rules": [
+      "Respect all participants and staff.",
+      "Keep the camp clean and organized.",
+      "Participate actively in all activities.",
+      "Stay within designated areas.",
+      "Report any issues or concerns to your leader.",
+      "Have fun and enjoy the adventure!"
+    ],
+    "contacts": [
+      {
+        "name": "Célio Santiago",
+        "phone": "+351 936 409 922"
+      },
+      {
+        "name": "Mário Pais",
+        "phone": "+351 965 743 692"
+      },
+      {
+        "name": "Catarina Rocha",
+        "phone": "+351 919 948 543"
+      },
+      {
+        "name": "Sara Batista",
+        "phone": "+351 911 922 361"
+      },
+      {
+        "name": "Inês Batista",
+        "phone": "+351 969 265 788"
+      },
+      {
+        "name": "Ana Caseiro",
+        "phone": "+351 938 231 060"
+      }
+    ]
 }

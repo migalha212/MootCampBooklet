@@ -3,8 +3,87 @@
       "primaryColor": "#FFC926",
       "secondaryColor": "#996B00"
     },
-    "story": "This is the story for Path 116...",
-    "schedule": [],
-    "rules": [],
-    "contacts": []
+    "story": "On the Great Day of the Zigaros’ Procession, the hills awaken before the sun, trembling to the dry beat of bass drums that make the ground pulse like a living heart. Trails of dust rise behind colorful caravans as the Zigaros march: flaming banners wave and ancient chants echo through the valleys. Baskets of shining apples hang from carved poles, their wild scent promising plenty. By the clear river, apple trees form a natural gate—branches weave shadows on the water, inviting travelers into a forgotten legend. Yet the Zigaros came for more than  a celebration. Their procession is an ancient ritual that calls forth old memories and hints at a hidden treasure whispered by ancestors—but what is its true form? Gold? Jewels? No one knows. Some say it’s something immaterial, born from genuine bonds: giving an apple to the needy, offering a shoulder to a friend, singing together under the moon. If you listen closely, you’ll hear subtle shifts in the drums’ rhythm, urging you toward acts of unity. As twilight deepens and the sky turns orange, the procession follows winding paths, guided by haunting chants that awaken the hills’ strength. In a moment of hushed wonder, you feel the promise of that treasure—not a prize to hold, but a spark kindled in united hearts. And you—do you dare join this procession and uncover what the hills guard in silence?",
+    "schedule": [
+      {
+        "date": "2025-07-25",
+        "periods": {
+          "morning": { "label": "Ice Break", "id": "ice_break" },
+          "afternoon": { "label": "Trip to Carrazeda", "id": "trip_carrazeda" },
+          "night": { "label": "Getting to Know Each Other", "id": "get_to_know" }
+        }
+      },
+      {
+        "date": "2025-07-26",
+        "periods": {
+          "morning": { "label": "Program, Craft a Zíngaro", "id": "program_craft_a_zingaro" },
+          "afternoon": { "label": "Local Culture/History, Setting Up Camp", "id": "local_culture_history_setting_up_camp" },
+          "night": { "label": "Free Time", "id": "free_time" }
+        }
+      },
+      {
+        "date": "2025-07-27",
+        "periods": {
+          "morning": { "label": "Make the Camp Better", "id": "make_the_camp_better" },
+          "afternoon": {  "label": "Pool actvity", "id": "pool_activity" },
+          "night": { "label": "Free Time", "id": "free_time" }
+        }
+      },
+      {
+        "date": "2025-07-28",
+        "periods": {
+          "morning": { "label": "Valley Trail", "id": "valley_trail" },
+          "afternoon": { "label": "Train Trip", "id": "train_trip" },
+          "night": { "label": "Prepare Fire Camp", "id": "prepare_fire_camp" }
+        }
+      },
+      {
+        "date": "2025-07-29",
+        "periods": {
+          "morning": { "label": "Water Games", "id": "water_games" },
+          "afternoon": { "label": "Bushcraft", "id": "bushcraft" },
+          "night": { "label": "Portuguese Party", "id": "portuguese_party" }
+        }
+      },
+      {
+        "date": "2025-07-30",
+        "periods": {
+          "morning": { "label": "Trip Main Camp", "id": "trip_main_camp" }
+        }
+      }
+    ],
+    "rules": [
+      "Respect all participants and staff.",
+      "Keep the camp clean and organized.",
+      "Participate actively in all activities.",
+      "Stay within designated areas.",
+      "Report any issues or concerns to your leader.",
+      "Have fun and enjoy the adventure!"
+    ],
+    "contacts": [
+      {
+        "name": "Célio Santiago",
+        "phone": "+351 936 409 922"
+      },
+      {
+        "name": "Mário Pais",
+        "phone": "+351 965 743 692"
+      },
+      {
+        "name": "Catarina Rocha",
+        "phone": "+351 919 948 543"
+      },
+      {
+        "name": "Sara Batista",
+        "phone": "+351 911 922 361"
+      },
+      {
+        "name": "Inês Batista",
+        "phone": "+351 969 265 788"
+      },
+      {
+        "name": "Ana Caseiro",
+        "phone": "+351 938 231 060"
+      }
+    ]
 }

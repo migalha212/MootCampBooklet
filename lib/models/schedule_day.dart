@@ -1,6 +1,6 @@
 class ScheduleDay {
   final DateTime date;
-  final Map<String, ActivityPeriod> periods; // morning, afternoon, night
+  final Map<String, ActivityPeriod> periods;
 
   ScheduleDay({required this.date, required this.periods});
 
