@@ -2,81 +2,113 @@
     {
       "id": "ice_break",
       "label": "Ice Break",
+      "banner": "ice_break.jpg",
+      "description": "A series of games to break the ice and get to know each other. The goal is to create a friendly atmosphere and help participants feel at ease. This will be split into two parts, one in the main camp in Lisbon and another once the group arrives at their respective viewpoint.",
       "short_description": "Various games for the participants to get to know each other."
     },
     {
       "id": "get_to_know",
       "label": "Getting to Know Each Other",
+      "banner": "get_to_know.jpg",
+      "description": "As the night falls at the viewpoints, participants will gather around for sharing stories, experiences, and personal anecdotes. This activity aims to foster a deeper understanding and connection among the participants.",
       "short_description": "After setting up camp games will be played at the viewpoints for the path to get to know each other."
     },
     {
       "id": "program_craft_a_zingaro",
       "label": "Craft a Zíngaro",
+      "banner": "program_craft_a_zingaro.jpg",
+      "description":"A brief explanation of the Activity Program and rules of the camp will be given, followed by a craft activity. Each participant will craft a little neckerchief slide, a \"Zíngaro\". This is a big headed puppet based on traditions from Carrazeda de Ansiães.",
       "short_description": "Each participant will craft a little neckerchief slide in the shape of a Zíngaro. This is a traditional big headed puppet from Carrazeda de Ansiães."
     },
     {
       "id": "local_culture_history_setting_up_camp",
       "label": "Local Reality",
+      "banner": "local_culture_history_setting_up_camp.jpg",
+      "description":"Participants will be introduced to the local culture and history of the viewpoint. After that, the group will pick up and head off to the path camp in Carrazeda de Ansiães, setting up camp and preparing for the next days.",
       "short_description": "A local and knowledgeable person will serve as a guide, showing the participants around and exposing some of the history of the Viewpoint where they are staying overnight!"
     },
     {
       "id": "train_trip",
       "label": "Train Trip",
-      "short_description": "Experience the local train system with a small trip around the area."
+      "banner": "train_trip.jpg",
+      "description": "Experience a Train trip between Tua and Pocinho, through the landscapes, river, valleys and vineyards of the Douro Valley.",
+      "short_description": "Experience the local train with a small trip around the area."
     },
     {
       "id": "pool_activity",
       "label": "Pool Activity",
+      "banner": "pool_activity.jpg",
+      "description": "Trip to the Municipal pools of Carrazeda to enjoy a few refreshing and fun hours of pool time! Take the time to relax, play and socialize. ",
       "short_description": "Trip to the Municipal pools of Carrazeda to enjoy a few refreshing and fun hours of pool time!"
     },
     {
       "id": "peddy_papper",
       "label": "Peddy Paper",
+      "banner": "peddy_papper.jpg",
+      "description": "This Peddy Paper will be type of scavenger hunt where participants will roam around the town of Carrazeda de Ansiães, solving clues and playing traditional Portuguese games. The goal is to explore the town, learn about its culture, and have fun while doing so.",
       "short_description": "During this activity the participants will roam around the town in a game of photo orientation in which they will get to play various traditional Portuguese games."
     },
     {
       "id": "water_games",
       "label": "Water Games",
-      "short_description": "This activity will be based around water. The participating Path will be divided into 2 halves, with one going canoeing and the other staying on land to play games with water."
+      "banner": "water_games.jpg",
+      "description": "The team will be put to the test with a water gymkhana by the river. Using cannoes and other obstacles, participants will be challenged to work together, and most importantly, have fun!",
+      "short_description": "The team will be put to the test with a water gymkhana by the river, With cannoes"
     },
     {
       "id": "valley_trail",
       "label": "Valley Trail",
+      "banner": "valley_trail.jpg",
+      "description": "A hike along the old railway line by the river, where participants will have the opportunity to reconnect with nature and enjoy the stunning views. Followed by a visit to the Tua Museum, which showcases the history of the old railway line and the region.",
       "short_description": "The participating Path will be going through a trail, reconect with nature and enjoy the views!"
     },
     {
       "id": "prepare_fire_camp",
       "label": "Prepare Fire camp",
+      "banner": "prepare_fire_camp.jpg",
+      "description": "With the aim of preparing something special to show at the main camp at Ovar, participants will gather around in a moment of sharing, putting their creativity to the test. ",
       "short_description": "During the night there will be a makeshift campfire with the goal of preparing one big moment to be shown at the main camp later on in the activity."
     },
     {
       "id": "bushcraft",
       "label": "Bushcraft",
+      "banner": "bushcraft.jpg",
+      "description": "A workshop on survival techniques and deep connection with nature, where you learn by doing. Participants will learn various techniques ranging from a basic scout level to some more advanced skill using the resources from the nature around them.",
       "short_description": "Back to scout basics! This activity will have the participants use various techniques that include using the resources from the nature around them and basic camping techniques."
     },
     {
       "id": "make_the_camp_better",
       "label": "Make the Camp Better",
+      "banner": "make_the_camp_better.jpg",
+      "description": "All hands on deck, time to improve the camp! The path will engage in two activities to help make the Scout Centre of Carrazeda better, those being painting one of its outer walls, or building a small shed/hut. With this, participants will also leave a mark of their passage through the camp.",
       "short_description": "The participating Path will engage in 2 activities to help make the Scout Centre of Carrazeda better, those being painting one of its outer walls, or building a small shed/hut."
     },
     {
       "id": "portuguese_party",
       "label": "Portuguese Party",
+      "banner": "portuguese_party.jpg",
+      "description": "A night full of joy and colour, where participants will enjoy traditional music, food, and games. This event aims to celebrate the local culture and create a festive atmosphere.",
       "short_description": "A night of Portuguese culture, with traditional music, food and games."
     },
     {
       "id": "free_time",
       "label": "Free time",
+      "banner": "free_time.jpg",
+      "description": "A moment for participants to relax, socialize, and enjoy their surroundings. This time can be used for leisure activities, games, or simply unwinding after a day of adventures.",
       "short_description": "Free time to be used for leisure and socialising."
     },
     {
       "id": "trip_main_camp",
       "label": "Trip to Main Camp",
+      "banner": "trip_main_camp.jpg",
+      "description": "Trip from Carrazeda de Ansiães to the main camp in Ovar, marking the end of the adventure in the Douro Valley.",
       "short_description": "Trip back to the main camp"
     },
     {
       "id": "trip_carrazeda",
       "label": "Trip to Carrazeda",
+      "banner": "trip_carrazeda.jpg",
+      "description":"Trip from Lisbon's main camp to the viewpoint in Carrazeda de Ansiães, home to the path for the following night.",
       "short_description": "Trip to the town of Carrazeda de Ansiães, where we will be staying for the duration the Path."
     }
   ]

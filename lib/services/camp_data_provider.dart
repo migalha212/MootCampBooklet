@@ -61,7 +61,7 @@ Future<void> _loadActivitiesMap() async {
       );
       final List<dynamic> jsonData = jsonDecode(jsonStr);
       final List<Activity> activitiesList = jsonData
-          .map((e) => Activity.fromJson(e))
+          .map((e) => Activity.fromJsonId(e))
           .toList();
 
       _activitiesMap = {
