@@ -18,7 +18,7 @@ class _MainAppState extends State<MainApp> {
   int _index = 2;
 
   final List<Widget> _pages = const [
-    MenuScreen(), // Ementa
+    MenuScreen(), // Menu
     ScheduleScreen(), // Schedule
     HomeScreen(), // Story
     InfoScreen(), // Contacts + Rules

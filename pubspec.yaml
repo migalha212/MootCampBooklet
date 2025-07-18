@@ -57,6 +57,7 @@ flutter:
     - assets/data/path_119.json
     - assets/data/path_116.json
     - assets/data/path_115.json
+    - assets/data/meals.json
     - assets/data/activities.json
     - assets/images/moot_logo.png
     - assets/images/apple_land_map.png

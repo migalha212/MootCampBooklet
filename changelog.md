@@ -4,3 +4,9 @@
 ## V1.1.0
 - Corrected path 115 story;
 - Time periods in the schedule now lead to a more detailed description
+
+## V1.2.0
+- Added The "Menu" Page
+- Schedule page is now much more detailed and up to date
+- Added web version of the app
+- Corrected minor description mistakes
