@@ -1,88 +1,96 @@
-import 'package:campbooklet/models/activity.dart';
-import 'package:campbooklet/screens/activity_details_screen.dart';
+import 'package:campbooklet/models/schedule_day.dart';
 import 'package:flutter/material.dart';
-import '../models/schedule_day.dart';
+
 
 class PeriodCard extends StatelessWidget {
-  final String label;
-  final ActivityPeriod? period;
-  final Activity? activity;
+  final String time;
+  final SchedulePeriod period;
+  final String? shortDescription;
   final Color color;
+  final VoidCallback? onTap;
+
   const PeriodCard({
     super.key,
-    required this.label,
+    required this.time,
     required this.period,
-    required this.activity,
+    this.shortDescription,
     required this.color,
+    this.onTap,
   });
+
+  bool get isClickable => period.id != null;
 
   @override
   Widget build(BuildContext context) {
-    if (period == null) return const SizedBox.shrink();
+    final bool isMinimal = !isClickable && period.responsibility == null;
 
     return GestureDetector(
-      onTap: () {
-        print('Tapped on period: ${activity?.id} - ${period!.label}');
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (_) =>
-                ActivityDetailScreen(activityId: activity?.id ?? ''),
-          ),
-        );
-      },
+      onTap: isClickable ? onTap : null,
       child: Container(
+        margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 16),
+        padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          color: color.withOpacity(0.1),
+          color: isClickable ? color.withOpacity(0.1) : Colors.grey.shade100,
+          border: Border.all(
+            color: isClickable ? color : Colors.grey.shade300,
+            width: 1.2,
+          ),
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: color.withOpacity(0.5)),
         ),
-        height: MediaQuery.of(context).size.height * 0.15,
-        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
         child: Row(
           children: [
             Expanded(
-              flex: 2,
+              flex: 3,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    period!.label,
-                    maxLines: 3,
+                    time,
                     style: const TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 16,
-                      color: Colors.black87,
-                      overflow: TextOverflow.ellipsis,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black54,
                     ),
                   ),
                   const SizedBox(height: 4),
                   Text(
-                    label,
+                    period.label,
                     style: TextStyle(
-                      fontWeight: FontWeight.normal,
-                      color: color,
-                      fontSize: 14,
+                      fontSize: isMinimal ? 13 : 15,
+                      fontWeight: isMinimal ? FontWeight.w400 : FontWeight.bold,
+                      color: Colors.black87,
                     ),
                   ),
+                  if (period.responsibility != null && !isClickable)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4),
+                      child: Text(
+                        period.responsibility!,
+                        style: const TextStyle(
+                          fontSize: 12,
+                          color: Colors.black54,
+                          fontStyle: FontStyle.italic,
+                        ),
+                      ),
+                    ),
                 ],
               ),
             ),
-            const SizedBox(width: 4),
-            Expanded(
-              flex: 4,
-              child: Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  activity?.shortDescription ?? 'No description available',
-                  style: const TextStyle(fontSize: 12, color: Colors.black54),
-                  maxLines: 5,
-                  overflow: TextOverflow.ellipsis,
+            if (!isMinimal && (shortDescription != null || isClickable))
+              Expanded(
+                flex: 4,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 12.0),
+                  child: Text(
+                    shortDescription ?? '',
+                    maxLines: 4,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(fontSize: 12, color: Colors.black54),
+                  ),
                 ),
               ),
-            ),
-            const Icon(Icons.chevron_right, color: Colors.grey),
+            if (isClickable)
+              const Icon(Icons.chevron_right, color: Colors.grey),
           ],
         ),
       ),

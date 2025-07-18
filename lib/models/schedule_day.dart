@@ -1,26 +1,32 @@
 class ScheduleDay {
   final DateTime date;
-  final Map<String, ActivityPeriod> periods;
+  final Map<String, SchedulePeriod> periods;
 
   ScheduleDay({required this.date, required this.periods});
 
   factory ScheduleDay.fromJson(Map<String, dynamic> json) {
-    final periodsJson = json['periods'] as Map<String, dynamic>;
-    final periods = periodsJson.map(
-      (k, v) => MapEntry(k, ActivityPeriod.fromJson(v)),
+    final Map<String, dynamic> rawPeriods = json['periods'] ?? {};
+    final parsedPeriods = rawPeriods.map(
+      (key, value) => MapEntry(key, SchedulePeriod.fromJson(value)),
     );
 
-    return ScheduleDay(date: DateTime.parse(json['date']), periods: periods);
+    return ScheduleDay(date: DateTime.parse(json['date']), periods: parsedPeriods);
   }
 }
 
-class ActivityPeriod {
+class SchedulePeriod {
   final String label;
-  final String id;
+  final String? id;
+  final String? responsibility;
 
-  ActivityPeriod({required this.label, required this.id});
+  SchedulePeriod({required this.label, this.id, this.responsibility});
 
-  factory ActivityPeriod.fromJson(Map<String, dynamic> json) {
-    return ActivityPeriod(label: json['label'], id: json['id']);
+  factory SchedulePeriod.fromJson(Map<String, dynamic> json) {
+    return SchedulePeriod(
+      label: json['label'],
+      id: json['id'],
+      responsibility: json['responsibility'],
+    );
   }
 }
+

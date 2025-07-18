@@ -1,4 +1,5 @@
 import 'package:campbooklet/models/activity.dart';
+import 'package:campbooklet/screens/activity_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -15,35 +16,34 @@ class ScheduleDayView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Provider.of<CampDataProvider>(context).theme!;
-    final primary = theme.colorScheme.primary;
 
     return Padding(
       padding: const EdgeInsets.all(16.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          PeriodCard(
-            label: "Morning",
-            period: day.periods["morning"],
-            activity: activitiesMap[day.periods["morning"]?.id],
-            color: primary,
-          ),
-          SizedBox(height: MediaQuery.of(context).size.height * 0.02),
-          PeriodCard(
-            label: "Afternoon",
-            period: day.periods["afternoon"],
-            activity: activitiesMap[day.periods["afternoon"]?.id],
-            color: primary,
-          ),
-          SizedBox(height: MediaQuery.of(context).size.height * 0.02),
-          PeriodCard(
-            label: "Night",
-            period: day.periods["night"],
-            activity: activitiesMap[day.periods["night"]?.id],
-            color: primary,
-          ),
-        ],
-      ),
+      child: SingleChildScrollView(
+        child: Column(
+          children: day.periods.entries.map((entry) {
+            final time = entry.key;
+            final period = entry.value;
+            final shortDesc = period.id != null
+          ? activitiesMap[period.id]?.shortDescription : null;
+        
+            return PeriodCard(
+        time: time,
+        period: period,
+        shortDescription: shortDesc,
+        color: theme.colorScheme.primary,
+        onTap: period.id != null
+            ? () => Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => ActivityDetailScreen(activityId: period.id!),
+                  ),
+                )
+            : null,
+            );
+          }).toList(),
+        ),
+      )
     );
   }
 }
