@@ -119,29 +119,46 @@
             }
         }
     </style>
+    <script>
+        window.onload = function () {
+          const iOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+          if (iOS) {
+            window.location.href = "web/index.html";
+          }
+        };
+      </script>
 </head>
+
+
 <body>
     <div class="container">
-        <h1>Download Moot Camp Booklet</h1>
-        <p>The Camp Booklet for the paths in Carrazeda de Anciães! (V1.1.0)</p>
-
-        <div class="download-area">
-            <img src="moot_logo.png" alt="Moot 2025 App Icon" class="app-icon">
-            <a href="campbooklet.apk" download class="download-button">Download App (Android APK)</a>
-        </div>
-
-        <div class="instructions">
-            <h2>Installation Instructions for Android:</h2>
-            <p>Since this app is downloaded directly and not from the Google Play Store, you'll need to allow installations from "Unknown Sources" on your device.</p>
-            <ol>
-                <li>Tap the "Download App" button above.</li>
-                <li>Your browser might display a warning about the file type. Tap <span class="warning">"OK"</span> or <span class="warning">"Download Anyway"</span> to proceed.</li>
-                <li>Once the download is complete, open the APK file from your device's notifications or its "Downloads" folder.</li>
-                <li>If prompted, go to your phone's Settings and grant permission to your browser (e.g., Chrome) to install apps from "Unknown Sources".</li>
-                <li>Return to the downloaded APK file and tap "Install".</li>
-                <li>The app should now be installed!</li>
-            </ol>
-        </div>
+      <h1>Moot Camp Booklet</h1>
+      <p>The Camp Booklet for the paths in Carrazeda de Anciães! (V1.1.0)</p>
+  
+      <div class="download-area">
+        <img src="moot_logo.png" alt="Moot 2025 App Icon" class="app-icon">
+        <a href="camp/index.html" class="download-button">Open Web Version</a>
+      </div>
+      <p class="warning">iOS users: Do not download the APK. Use the Web Version above ⬆️</p>
+  
+      <div class="download-area">
+        <img src="moot_logo.png" alt="Moot 2025 App Icon" class="app-icon">
+        <a href="campbooklet.apk" download class="download-button">Download App (Android APK)</a>
+      </div>
+  
+      <div class="instructions">
+        <h2>Installation Instructions for Android:</h2>
+        <p>Since this app is downloaded directly and not from the Google Play Store, you'll need to allow installations from "Unknown Sources" on your device.</p>
+        <ol>
+          <li>Tap the "Download App" button above.</li>
+          <li>Your browser might display a warning about the file type. Tap <span class="warning">"OK"</span> or <span class="warning">"Download Anyway"</span> to proceed.</li>
+          <li>Once the download is complete, open the APK file from your device's notifications or its "Downloads" folder.</li>
+          <li>If prompted, go to your phone's Settings and grant permission to your browser (e.g., Chrome) to install apps from "Unknown Sources".</li>
+          <li>Return to the downloaded APK file and tap "Install".</li>
+          <li>The app should now be installed!</li>
+        </ol>
+      </div>
     </div>
-</body>
+  </body>
+  
 </html>

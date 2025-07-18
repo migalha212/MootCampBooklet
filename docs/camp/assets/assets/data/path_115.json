@@ -1,0 +1,316 @@
+{
+    "theme": {
+      "primaryColor": "#0030DA",
+      "secondaryColor": "#001A7A"
+    },
+    "story": "In a village hidden among green hills and crossed by a river with crystal-clear water, The Festival of Apples and Drums took place every year. This event was eagerly awaited, as it not only brought the locals together, but also the Zíngaros from the colourful caravans, who arrived from all over with their mysterious stories and songs. This year, however, something felt off While preparations were in full swing and the villagers were picking the best apples from the orchards to decorate the village, the zingaros brought a story of a secret lost on the banks of the river. They said that there, at midnight, the drums would echo by themselves, leading whomever heard them to the exact place where the treasure would be kept. On the night of the festival, amid dancing and laughter, the most curious gathered by the river. The apples glistened under the light of the torches and the drums rested, waiting for their time. At midnight, a low, rhythmic sound rose up, as if the river itself was beating to the sound of the drums. Following the sound, the villagers discovered, near the bank, an old chest covered in stones and moss. When they opened it, they found forgotten necklaces and ornaments, but also a note from their ancestors: ‘The real treasure is your union.’ Since then, the Festival of Apples and Drums has not only been a moment of celebration, but also a reminder that friendship and unity were the real riches of the village.",
+  "schedule":[
+    {
+      "date": "2025-07-25",
+      "periods": {
+        "09:00 - 14:00": {
+          "label": "Opening Cerimony"
+        },
+        "14:00 - 20:00": {
+          "label": "Bus Trip Santuário Senhor da Boa Morte (Castanheiro)"
+        },
+        "20:00 - 21:00": {
+          "label": "Dinner",
+          "responsibility": "Provided by STAFF"
+        },
+        "21:00 - 23:00": {
+          "label": "Ice Break + Field Assembly",
+          "id": "ice_break"
+        },
+        "23:00 - 07:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-26",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 08:30": {
+          "label": "Breakfast"
+        },
+        "08:30 - 09:00": {
+          "label": "break camp"
+        },
+        "09:00 - 12:00": {
+          "label": "Local history and Zingaro mootcraft",
+          "id": "craft_a_zingaro"
+        },
+        "12:00 - 12:30": {
+          "label": "Bus trip to camp"
+        },
+        "12:30 - 13:00": {
+          "label": "Arrive at camp"
+        },
+        "13:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "13:00 - 15:00": {
+          "label": "Lunch"
+        },
+        "15:00 - 18:00": {
+          "label": "Set up camp"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and advisors meeting"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Free Night",
+          "id": "free_night"
+        },
+        "23:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 09:00": {
+          "label": "Breakfast"
+        },
+        "09:00 - 09:30": {
+          "label": "Bus To Tua"
+        },
+        "10:04 - 10:48": {
+          "label": "Tua to Pocinho (Train)"
+        },
+        "11:00 - 12:00": {
+          "label": "Pocinho to Tua (Train)"
+        },
+        "13:00 - 14:00": {
+          "label": "Lunch"
+        },
+        "14:00 - 15:00": {
+          "label": "Tua Valley Interpretation Centre (Guide Tour Museum)"
+        },
+        "15:00 - 17:00": {
+          "label": "Valley trail",
+          "id": "valley_trail"
+        },
+        "18:00": {
+          "label": "Bus To Camp"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and advisors meeting"
+        },
+        "18:30": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:30 - 20:00": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "19:00 - 20:00": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "20:00 - 21:00": {
+          "label": "Dinner"
+        },
+        "21:00 - 23:00": {
+          "label": "Prepare the camp fire",
+          "id": "prepare_camp_fire"
+        },
+        "00:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "periods": {
+        "06:00": {
+          "label": "wake-up call"
+        },
+        "06:00 - 07:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "07:00 - 08:00": {
+          "label": "Breakfast"
+        },
+        "08:00 - 09:00": {
+          "label": "Bus To Cais da Sobreira"
+        },
+        "09:00 - 12:00": {
+          "label": "Water Games",
+          "id": "water_games"
+        },
+        "12:00 - 13:00": {
+          "label": "Bus to Camp"
+        },
+        "13:00 - 14:00": {
+          "label": "Lunch"
+        },
+        "14:00 - 18:00": {
+          "label": "Bushcraft",
+          "id": "bushcraft"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and advisors meeting"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Peddy Paper",
+          "id": "peddy_paper"
+        },
+        "23:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 09:00": {
+          "label": "Breakfast"
+        },
+        "09:30 - 10:00": {
+          "label": "Bus to Pool"
+        },
+        "10:00 - 13:00": {
+          "label": "Pool Activity",
+          "id": "pool_activity"
+        },
+        "13:00 - 13:30": {
+          "label": "Lunch"
+        },
+        "13:30 - 14:00": {
+          "label": "Bus to Pool"
+        },
+        "14:00 - 18:00": {
+          "label": "Make the Camp Better",
+          "id": "make_camp_better"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and advisors meeting"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Party",
+          "id": "party"
+        },
+        "23:00 - 07:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup"
+        },
+        "08:00 - 09:00": {
+          "label": "Breakfast"
+        },
+        "09:00 - 13:00": {
+          "label": "break camp"
+        },
+        "13:00 - 14:00": {
+          "label": "Lunch"
+        },
+        "15:20 - 18:00": {
+          "label": "Bus Trip to Buçaquinho"
+        }
+      }
+    }
+  ],
+  "rules": [
+    "Respect everyone — we come from different cultures and backgrounds.",
+    "Take care of the shared spaces and equipment.",
+    "Follow the schedule and be punctual.",
+    "Stay hydrated and use sunscreen.",
+    "Report to your leader if you feel unwell or unsafe.",
+    "Have fun and participate actively!"
+  ],
+  "contacts": [
+    {
+      "name": "Célio Santiago",
+      "phone": "+351 936 409 922"
+    },
+    {
+      "name": "Mário Pais",
+      "phone": "+351 965 743 692"
+    },
+    {
+      "name": "Catarina Rocha",
+      "phone": "+351 919 948 543"
+    },
+    {
+      "name": "Sara Batista",
+      "phone": "+351 911 922 361"
+    }
+  ]
+}
+  

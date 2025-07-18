@@ -1,0 +1,35 @@
+[
+    {
+      "id": "path_115",
+      "label": "Path 115",
+      "theme": {
+        "primary": "#0030DA",
+        "secondary": "#001A7A"
+      }
+    },
+    {
+      "id": "path_116",
+      "label": "Path 116",
+      "theme": {
+        "primary": "#BA14DC",
+        "secondary": "#5A0073"
+      }
+    },
+    {
+      "id": "path_119",
+      "label": "Path 119",
+      "theme": {
+        "primary": "#049C2F",
+        "secondary": "#024F18"
+      }
+    },
+    {
+      "id": "path_120",
+      "label": "Path 120",
+      "theme": {
+        "primary": "#FFC926",
+        "secondary": "#996B00"
+      }
+    }
+  ]
+  

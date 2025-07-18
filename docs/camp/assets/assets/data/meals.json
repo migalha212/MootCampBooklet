@@ -1,0 +1,161 @@
+{
+    "meals": [
+      {
+        "date": "2025-07-26",
+        "meals": [
+          {
+            "type": "Breakfast",
+            "items": [
+              { "quantity": 9, "unit": "pack", "item": "Milk" },
+              { "quantity": 1, "unit": "pack", "item": "Lactose Free Milk" },
+              { "quantity": 96, "unit": "pcs", "item": "Bread" },
+              { "quantity": 1, "unit": "kg", "item": "Butter" },
+              { "quantity": 3, "unit": "pot", "item": "Jam" },
+              { "quantity": 1, "unit": "large", "item": "Coffe" },
+              {"quantity": 3, "unit":"kg", "item": "Cereal"}
+            ]
+          },
+          {
+            "type": "Lunch",
+            "items": [
+              { "quantity": 44, "unit": "pcs", "item": "Milanese Rations" },
+              { "quantity": 1, "unit": "can", "item": "Tuna" },
+              { "quantity": 48, "unit": "pcs", "item": "Bread" },
+              { "quantity": 48, "unit": "pcs", "item": "Apple" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" },
+              { "quantity": 3, "unit": "doses", "item": "Mixed Salad" }
+            ]
+          },
+          {
+            "type": "Dinner",
+            "items": [
+              { "quantity": 1, "unit": "kg", "item": "Tomato Pulp" },
+              { "quantity": 6, "unit": "kg", "item": "Rice" },
+              { "quantity": 9, "unit": "kg", "item": "Chicken" },
+              { "quantity": 3, "unit": "kg", "item": "Tomato" },
+              { "quantity": 2, "unit": "kg", "item": "Carrot" },
+              { "quantity": 1, "unit": "pcs", "item": "Corn" },
+              { "quantity": 1, "unit": "kg", "item": "Mushrooms" },
+              { "quantity": 48, "unit": "pcs", "item": "Apple" }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-07-27",
+        "meals": [
+          {
+            "type": "Breakfast",
+            "items": [
+              { "quantity": 9, "unit": "pack", "item": "Milk" },
+              { "quantity": 1, "unit": "pack", "item": "Lactose Free Milk" },
+              { "quantity": 96, "unit": "pcs", "item": "Bread" },
+              { "quantity": 1, "unit": "kg", "item": "Butter" },
+              { "quantity": 3, "unit": "pot", "item": "Jam" },
+              { "quantity": 1, "unit": "large", "item": "Coffe" },
+              {"quantity": 3, "unit":"kg", "item": "Cereal"}
+            ]
+          },
+          {
+            "type": "Lunch",
+            "items": [
+              { "quantity": 132, "unit": "pcs", "item": "Sausage" },
+              { "quantity": 9, "unit": "pcs", "item": "Vegam Sausage" },
+              { "quantity": 48, "unit": "pcs", "item": "Bread" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" },
+              { "quantity": 48, "unit": "pcs", "item": "Apple" }
+            ]
+          },
+          {
+            "type": "Dinner",
+            "items": [
+              { "quantity": 2, "unit": "kg", "item": "Peas" },
+              { "quantity": 7, "unit": "kg", "item": "Potatoes" },
+              { "quantity": 5, "unit": "kg", "item": "Tuna" },
+              { "quantity": 2, "unit": "kg", "item": "Tomato" },
+              { "quantity": 2, "unit": "kg", "item": "Carrot" },
+              { "quantity": 48, "unit": "pcs", "item": "Eggs" },
+              { "quantity": 1, "unit": "pcs", "item": "Letucce" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-07-28",
+        "meals": [
+          {
+            "type": "Breakfast",
+            "items": [
+              { "quantity": 9, "unit": "pack", "item": "Milk" },
+              { "quantity": 1, "unit": "pack", "item": "Lactose Free Milk" },
+              { "quantity": 96, "unit": "pcs", "item": "Bread" },
+              { "quantity": 1, "unit": "kg", "item": "Butter" },
+              { "quantity": 3, "unit": "pot", "item": "Jam" },
+              { "quantity": 1, "unit": "large", "item": "Coffe" },
+              {"quantity": 3, "unit":"kg", "item": "Cereal"}
+            ]
+          },
+          {
+            "type": "Lunch",
+            "items": [
+              { "quantity": 48, "unit": "doses", "item": "Mediterrânea" },
+              { "quantity": 48, "unit": "pcs", "item": "Bread" },
+              { "quantity": 48, "unit": "pcs", "item": "Apple" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" }
+            ]
+          },
+          {
+            "type": "Dinner",
+            "items": [
+              { "quantity": 3, "unit": "kg", "item": "Macarroni" },
+              { "quantity": 4, "unit": "kg", "item": "Chicken" },
+              { "quantity": 2, "unit": "kg", "item": "Veal" },
+              { "quantity": 2, "unit": "kg", "item": "Red Beans" },
+              { "quantity": 2, "unit": "kg", "item": "Potatoes" },
+              { "quantity": 2, "unit": "kg", "item": "Carrot" },
+              { "quantity": 48, "unit": "pcs", "item": "Pear" }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-07-29",
+        "meals": [
+          {
+            "type": "Breakfast",
+            "items": [
+              { "quantity": 9, "unit": "pack", "item": "Milk" },
+              { "quantity": 1, "unit": "pack", "item": "Lactose Free Milk" },
+              { "quantity": 96, "unit": "pcs", "item": "Bread" },
+              { "quantity": 1, "unit": "kg", "item": "Butter" },
+              { "quantity": 3, "unit": "pot", "item": "Jam" },
+              { "quantity": 1, "unit": "large", "item": "Coffe" },
+              {"quantity": 3, "unit":"kg", "item": "Cereal"}
+            ]
+          },
+          {
+            "type": "Lunch",
+            "items": [
+              { "quantity": 45, "unit": "can", "item": "Tuna Pate" },
+              { "quantity": 3, "unit": "doses", "item": "Vegetarian" },
+              { "quantity": 48, "unit": "pcs", "item": "Bread" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" },
+              { "quantity": 48, "unit": "pcs", "item": "Apple" }
+            ]
+          },
+          {
+            "type": "Dinner",
+            "items": [
+              { "quantity": 5, "unit": "kg", "item": "Spaghetti" },
+              { "quantity": 7, "unit": "kg", "item": "Chicken" },
+              { "quantity": 2, "unit": "kg", "item": "Carrot" },
+              { "quantity": 1, "unit": "pcs", "item": "Tomato Pulp" },
+              { "quantity": 48, "unit": "pcs", "item": "Peaches" },
+              { "quantity": 300, "unit": "g", "item": "Mushrooms" }
+            ]
+          }
+        ]
+      }
+    ]
+  }

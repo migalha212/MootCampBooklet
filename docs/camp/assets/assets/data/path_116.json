@@ -1,0 +1,315 @@
+{
+  "theme": {
+    "primaryColor": "#BA14DC",
+    "secondaryColor": "#5A0073"
+  },
+  "story": "No one knows where the train begins. It arrives in silence, slipping into forgotten stations.The route winds through vast, emerald mountains that rise and fall like waves, covered in dense, whispering trees. Below, golden rivers snake through the valleys, glowing as if they’ve captured the light of the sun and never let it go. Sheep dot the hillsides like cotton balls, and birds race the train, dipping and looping in the breeze. One evening, the train slows and stops at a small town nestled between the hills and a curve of the glowing river. The travelers disembark, unsure why. The town feels inviting, like it’s been waiting just for them. Near the station, someone spots a hand-painted sign: “The treasure is near. But first—find the key.” And just like that, the hunt begins. They scatter in all directions, wandering the narrow streets, in the search for hints. Hints lead to more hints. They point away from the center of town, out toward the riverbanks. The travelers borrow canoes and set off gently down the golden waters, paddling past fields of reeds and old stone bridges. The river carries them through quiet countryside where olive trees stretch their limbs toward the sun, and whitewashed chapels sit tucked among the hills. Eventually, they reach the vast, sun-warmed plains that seem to hum with a quiet sort of magic. There, under the open sky, the air soft and golden, they finally find the key. Now it’s time to find the treasure. But the treasure is not gold, nor jewels. Maybe the treasure was the hunt itself, working together as a team and the union of people! Eventually, the train will return—whenever it feels the time is right. And when it does, the travelers will carry more than just luggage.",
+  "schedule": [
+    {
+      "date": "2025-07-25",
+      "periods": {
+        "09:00 - 14:00": {
+          "label": "Opening Cerimony"
+        },
+        "14:00 - 20:00": {
+          "label": "Bus Trip Santuário da Paixão (Arnal)"
+        },
+        "20:00 - 21:00": {
+          "label": "Dinner",
+          "responsibility": "ingredients provided by the council and prepared by the participants"
+        },
+        "21:00 - 23:00": {
+          "label": "Ice Break + Field Assembly",
+          "id": "ice_break"
+        },
+        "23:00 - 07:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-26",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 08:30": {
+          "label": "Breakfast"
+        },
+        "08:30 - 09:00": {
+          "label": "break camp"
+        },
+        "09:00 - 12:00": {
+          "label": "Local history and Zingaro mootcraft",
+          "id": "craft_a_zingaro"
+        },
+        "12:00 - 12:30": {
+          "label": "Bus trip to camp"
+        },
+        "12:30 - 13:00": {
+          "label": "Arrive at camp"
+        },
+        "13:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "13:00 - 15:00": {
+          "label": "Lunch"
+        },
+        "15:00 - 18:00": {
+          "label": "Set up camp"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and advisors meeting"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Free Night",
+          "id": "free_night"
+        },
+        "23:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 9:00": {
+          "label": "Breakfast"
+        },
+        "09:30 - 10:00": {
+          "label": "Bus to Pool"
+        },
+        "10:00 - 12:00": {
+          "label": "Pool Activity",
+          "id": "pool_activity"
+        },
+        "13:00 - 13:30": {
+          "label": "Lunch"
+        },
+        "13:30 - 14:00": {
+          "label": "Bus to Pool"
+        },
+        "14:00 - 18:00": {
+          "label": "Make the Camp Better",
+          "id": "make_camp_better"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders and ad advisors meeting"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Peddy Paper",
+          "id": "peddy_paper"
+        },
+        "03:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "periods": {
+        "06:00": {
+          "label": "wake-up call"
+        },
+        "06:00 - 07:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "07:00 - 08:00": {
+          "label": "Breakfast"
+        },
+        "09:00 - 10:00": {
+          "label": "Bus To Tua"
+        },
+        "10:04 - 10:48": {
+          "label": "Tua to Pocinho (Train)"
+        },
+        "11:10 - 11:48": {
+          "label": "Pocinho to Tua (Train)"
+        },
+        "13:00 - 14:00": {
+          "label": "Lunch"
+        },
+        "14:00 - 15:00": {
+          "label": "Tua Valley Interpretation Centre (Guide Tour Museum)"
+        },
+        "15:00 - 18:00": {
+          "label": "Valley trail",
+          "id": "valley_trail"
+        },
+        "18:00": {
+          "label": "Bus To Camp"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders + advisors meeting"
+        },
+        "19:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "19:00 - 20:00": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "20:00 - 21:00": {
+          "label": "Dinner"
+        },
+        "21:00 - 23:00": {
+          "label": "Prepare the camp fire",
+          "id": "prepare_camp_fire"
+        },
+        "23:00 - 06:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "08:00 - 09:00": {
+          "label": "Breakfast"
+        },
+        "09:00 - 11:00": {
+          "label": "Bushcraft",
+          "id": "bushcraft"
+        },
+        "11:00 - 12:00": {
+          "label": "Bus To Cais da Sobreira"
+        },
+        "13:00 - 13:30": {
+          "label": "Lunch"
+        },
+        "13:30 - 17:00": {
+          "label": "Water games",
+          "id": "water_games"
+        },
+        "17:00 - 18:00": {
+          "label": "Bus to Camp"
+        },
+        "18:00": {
+          "label": "Food Pickup",
+          "responsibility": "Path Responsibility"
+        },
+        "18:00 - 19:00": {
+          "label": "Path leaders + advisors meeting"
+        },
+        "18:00 - 19:30": {
+          "label": "Prepare Dinner",
+          "responsibility": "Path Responsibility"
+        },
+        "19:00 - 19:30": {
+          "label": "Path advisors and team leaders meeting"
+        },
+        "19:30 - 20:00": {
+          "label": "Dinner"
+        },
+        "20:00 - 23:00": {
+          "label": "Party",
+          "id": "party"
+        },
+        "03:00 - 07:00": {
+          "label": "Quiet hours"
+        }
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "periods": {
+        "07:00": {
+          "label": "wake-up call"
+        },
+        "07:00 - 08:00": {
+          "label": "Food Pickup"
+        },
+        "08:00 - 09:00": {
+          "label": "Breakfast"
+        },
+        "09:00 - 13:00": {
+          "label": "break camp"
+        },
+        "13:00 - 14:00": {
+          "label": "Lunch"
+        },
+        "15:20 - 18:00": {
+          "label": "Bus Trip to Buçaquinho"
+        }
+      }
+    }
+  ],
+  "rules": [
+    "Respect all participants and staff.",
+    "Keep the camp clean and organized.",
+    "Participate actively in all activities.",
+    "Stay within designated areas.",
+    "Report any issues or concerns to your leader.",
+    "Have fun and enjoy the adventure!"
+  ],
+  "contacts": [
+    {
+      "name": "Célio Santiago",
+      "phone": "+351 936 409 922"
+    },
+    {
+      "name": "Mário Pais",
+      "phone": "+351 965 743 692"
+    },
+    {
+      "name": "Catarina Rocha",
+      "phone": "+351 919 948 543"
+    },
+    {
+      "name": "Sara Batista",
+      "phone": "+351 911 922 361"
+    }
+  ]
+}
