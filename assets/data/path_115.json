@@ -296,20 +296,24 @@
   ],
   "contacts": [
     {
-      "name": "Célio Santiago",
+      "name": "Maria Claro | Path Leader",
+      "phone": "+351 912 529 329"
+    },
+    {
+      "name": "Tomas Rego | Path Leader",
+      "phone": "+351 924 235 754"
+    },
+    {
+      "name": "Sara Batista | Path Staff",
+      "phone": "+351 911 922 361"
+    },
+    {
+      "name": "Célio Santiago | Path Advisor",
       "phone": "+351 936 409 922"
     },
     {
-      "name": "Mário Pais",
+      "name": "Mário Pais | Path Advisor",
       "phone": "+351 965 743 692"
-    },
-    {
-      "name": "Catarina Rocha",
-      "phone": "+351 919 948 543"
-    },
-    {
-      "name": "Sara Batista",
-      "phone": "+351 911 922 361"
     }
   ]
 }

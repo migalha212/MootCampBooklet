@@ -10,3 +10,6 @@
 - Schedule page is now much more detailed and up to date
 - Added web version of the app
 - Corrected minor description mistakes
+
+## V1.2.1
+- Changed Contacts

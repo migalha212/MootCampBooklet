@@ -294,20 +294,20 @@
     ],
     "contacts": [
       {
-        "name": "Célio Santiago",
+        "name": "Núria Alves | Path Leader",
+        "phone": "+351 930 601 790"
+      },
+      {
+        "name": "Diogo Santiago | Path Leader",
+        "phone": "+351 967 317 123"
+      },
+      {
+        "name": "Célio Santiago | Path Advisor",
         "phone": "+351 936 409 922"
       },
       {
-        "name": "Mário Pais",
+        "name": "Mário Pais | Path Advisor",
         "phone": "+351 965 743 692"
-      },
-      {
-        "name": "Catarina Rocha",
-        "phone": "+351 919 948 543"
-      },
-      {
-        "name": "Sara Batista",
-        "phone": "+351 911 922 361"
       }
     ]
 }
