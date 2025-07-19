@@ -13,3 +13,6 @@
 
 ## V1.2.1
 - Changed Contacts
+
+## V1.2.2
+- Updated path schedules
