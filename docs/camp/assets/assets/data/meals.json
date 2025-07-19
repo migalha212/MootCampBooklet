@@ -156,6 +156,29 @@
             ]
           }
         ]
+      },
+      {
+        "date": "2025-07-30",
+        "meals": [
+          {
+            "type": "Breakfast",
+            "items": [
+              { "quantity": 9, "unit": "pack", "item": "Milk" },
+              { "quantity": 1, "unit": "pack", "item": "Lactose Free Milk" },
+              { "quantity": 96, "unit": "pcs", "item": "Bread" },
+              { "quantity": 1, "unit": "kg", "item": "Butter" },
+              { "quantity": 3, "unit": "pot", "item": "Jam" },
+              { "quantity": 1, "unit": "large", "item": "Coffe" },
+              {"quantity": 3, "unit":"kg", "item": "Cereal"}
+            ]
+          },
+          {
+            "type": "Lunch",
+            "items": [
+              { "quantity": 48, "unit": "dose", "item": "Lunch On-the-go" }
+            ]
+          }
+        ]
       }
     ]
   }
