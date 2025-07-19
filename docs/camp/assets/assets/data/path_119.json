@@ -116,10 +116,12 @@
             "label": "Lunch"
           },
           "15:58 - 16:42": {
-            "label": "Tua to Pocinho (Train)"
+            "label": "Tua to Pocinho (Train)",
+            "id": "train_trip"
           },
           "17:12 - 17:54": {
-            "label": "Pocinho to Tua (Train)"
+            "label": "Pocinho to Tua (Train)",
+            "id": "train_trip"
           },
           "18:00": {
             "label": "Bus To Camp"
@@ -199,7 +201,7 @@
           },
           "20:00 - 23:00": {
             "label": "Peddy Paper",
-            "id": "peddy_paper"
+            "id": "peddy_papper"
           },
           "23:00 - 06:00": {
             "label": "Quiet hours"
@@ -302,11 +304,11 @@
         "phone": "+351 967 317 123"
       },
       {
-        "name": "Célio Santiago | Path Advisor",
+        "name": "Célio Santiago | Team Leader",
         "phone": "+351 936 409 922"
       },
       {
-        "name": "Mário Pais | Path Advisor",
+        "name": "Mário Pais | Team Leader",
         "phone": "+351 965 743 692"
       }
     ]

@@ -138,7 +138,7 @@
         },
         "20:00 - 23:00": {
           "label": "Peddy Paper",
-          "id": "peddy_paper"
+          "id": "peddy_papper"
         },
         "03:00 - 06:00": {
           "label": "Quiet hours"
@@ -162,10 +162,12 @@
           "label": "Bus To Tua"
         },
         "10:04 - 10:48": {
-          "label": "Tua to Pocinho (Train)"
+          "label": "Tua to Pocinho (Train)",
+          "id": "train_trip"
         },
         "11:10 - 11:48": {
-          "label": "Pocinho to Tua (Train)"
+          "label": "Pocinho to Tua (Train)",
+          "id": "train_trip"
         },
         "13:00 - 14:00": {
           "label": "Lunch"
@@ -308,11 +310,11 @@
       "phone": "+351 919 948 543"
     },
     {
-      "name": "Célio Santiago | Path Advisor",
+      "name": "Célio Santiago | Team Leader",
       "phone": "+351 936 409 922"
     },
     {
-      "name": "Mário Pais | Path Advisor",
+      "name": "Mário Pais | Team Leader",
       "phone": "+351 965 743 692"
     }
   ]
