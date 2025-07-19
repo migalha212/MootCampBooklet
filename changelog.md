@@ -16,3 +16,6 @@
 
 ## V1.2.2
 - Updated path schedules
+
+## V1.2.3
+- Updated Menu
