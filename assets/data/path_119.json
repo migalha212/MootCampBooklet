@@ -8,10 +8,13 @@
       {
         "date": "2025-07-25",
         "periods": {
-          "09:00 - 14:00": {
+          "09:00 - 12:15": {
             "label": "Opening Cerimony"
           },
-          "14:00 - 20:00": {
+          "12:15": {
+            "label": "Ready to depart"
+          },
+          "12:45 - 18:08": {
             "label": "Bus Trip Santuário Senhora da Graça (Samorinha)"
           },
           "20:00 - 21:00": {
@@ -268,20 +271,20 @@
           "07:00": {
             "label": "wake-up call"
           },
-          "07:00 - 08:00": {
-            "label": "Food Pickup"
+          "07:00 - 09:00": {
+            "label": "Breakfast + Food pickup"
           },
           "08:00 - 09:00": {
-            "label": "Breakfast"
-          },
-          "09:00 - 13:00": {
             "label": "break camp"
+          },
+          "09:00": {
+            "label": "Ready to depart"
+          },
+          "09:30 - 11:45": {
+            "label": "Bus Trip to Buçaquinho"
           },
           "13:00 - 14:00": {
             "label": "Lunch"
-          },
-          "15:20 - 18:00": {
-            "label": "Bus Trip to Buçaquinho"
           }
         }
       }
